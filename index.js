@@ -9,15 +9,26 @@ import { getFirestore, collection } from
 
 import { doc, setDoc } from "firebase/firestore";
 
+
+
 const firebaseConfig = {
-    apiKey: "AIzaSyCGO1gtGMbicfl5GtksHDVoNz11puXFFic",
-    authDomain: "nibmtestprojectbyakila.firebaseapi.com",
-    projectId: "nibmtestprojectbyakila",
-    storageBucket: "nibmtestprojectbyakila.appspot.com",
-    messagingSenderId: "539038346774",
-    appId: "1:539038346774:web:a9e0d30347cdb8b2774f37",
-    measurementId: "G-Q0W7LDF1K5"
-  };
+
+  apiKey: "AIzaSyAVR46UnJjn7KGKs8TNIDXzdcOiUMJ2b2M",
+
+  authDomain: "ipccw-98afd.firebaseapp.com",
+
+  projectId: "ipccw-98afd",
+
+  storageBucket: "ipccw-98afd.appspot.com",
+
+  messagingSenderId: "830852744265",
+
+  appId: "1:830852744265:web:d0083cdb6783c821d9ab98",
+
+  measurementId: "G-0J2XQNFWJ3"
+
+};
+
 
 const app = initializeApp(firebaseConfig);
 const database = getFirestore(app);
